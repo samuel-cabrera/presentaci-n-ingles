@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GameZone - Blogs y Podcasts</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="alternate" type="application/rss+xml" title="RSS del Blog" href="feed/rss.xml">
+    <link rel="alternate" type="application/rss+xml" title="RSS del Podcast" href="feed/podcast.xml">
+    <link rel="alternate" type="application/rss+xml" title="Archivo OPML" href="feed/feeds.opml">
+</head>
+<body>
+    <header>
+        <h1>GameZone</h1>
+        <nav>
+            <ul>
+                <li><a href="blog/index.html">Blogs de Videojuegos</a></li>
+                <li><a href="podcast/index.html">Podcasts</a></li>
+                <li><a href="feed/feeds.opml">Suscripción OPML</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2 align="center">Últimos Artículos sobre Videojuegos</h2>
+            <ul align="center">
+                <li><a href="blog/posts/post1.html">Dark souls</a></li>
+                <img src="images/Dark_souls.jpg" alt="Vista de la ciudad de Yharnam">
+            </ul>
+            <ul align="center">
+                <li><a href="blog/posts/post2.html">Bloodborne</a></li>
+                <img src="images/bloodborne.jpg" alt="Cazador en jarddín de flores, luna de sangre al fondo y la precencia de un dios maligno">
+            </ul>
+            <ul align="center">
+                <li><a href="blog/posts/post3.html">Diablo</a></li>
+                <img src="images/diablo.jpg" alt="Rostro de Diablo, el señor del terror">
+            </ul>
+        </section>
+
+        <section>
+            <h2 align="center">Últimos Podcasts sobre Videojuegos</h2>
+            <ul align="center">
+                <li>
+                    <h3>El futuro de los juegos en la nube</h3>
+                    <audio controls>
+                        <source src="podcast/audios/episodio1.mp3" type="audio/mpeg">
+                        Tu navegador no soporta la etiqueta de audio.
+                    </audio>
+                </li>
+                <li>
+                    <h3>Entrevista con desarrolladores indie</h3>
+                    <audio controls>
+                        <source src="podcast/audios/episodio2.mp3" type="audio/mpeg">
+                        Tu navegador no soporta la etiqueta de audio.
+                    </audio>
+                </li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>Suscríbete a nuestras actualizaciones:</p>
+        <ul>
+            <li><a href="feed/rss.xml">RSS del Blog</a></li>
+            <li><a href="feed/podcast.xml">RSS del Podcast</a></li>
+            <li><a href="feed/feeds.opml" download="feeds.opml">Archivo OPML</a></li>
+        </ul>
+        <a href="http://www.rssboard.org/rss-validator/check.cgi?url=https%3A//samuel-cabrera.github.io/web-game/feed/podcast.xml"><img src="images/valid-rss-rogers.jpg" alt="[Valid RSS]" title="Validate my RSS feed" /></a>
+        <a href="http://www.feedvalidator.org/check.cgi?url=https%3A//samuel-cabrera.github.io/web-game/feed/feeds.opml"><img src="./images/valid-opml.gif" alt="[Valid OPML]" title="Validate my OPML feed" /></a>
+    </footer>
+</body>
+</html>
